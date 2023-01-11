@@ -8,7 +8,7 @@
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "dependencies": {
-    "knex": "^0.95.11",
+    "knex": "^2.4.0",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
